@@ -3,9 +3,9 @@ variable_id,variable_name,standard_name,variable_source,variable_units,notes,sta
 2,longitude,longitude,common,degree,Decimical degree,degree_east
 3,latitude,latitude,common,degree,Decimical degree,degree_north
 4,pressure,sea_water_pressure,common,psi,Pressure expressed as pound-force per square inch,dbar
-5,depth,depth,common,meter,"Depth in meter, usually converted from pressure measurements",meter
-6,temperature,sea_water_temperature,common,Celsius,"External sensor temperature, usually water temperature in Celsius",K
-7,internalTemperature,,common,Celsius,"Internal sesnor temperature, usually body cavity temperature in Celsius",
+5,depth,depth,common,meter,"Depth in meter usually converted from pressure measurements",meter
+6,temperature,sea_water_temperature,common,Celsius,"External sensor temperature usually water temperature in Celsius",K
+7,internalTemperature,,common,Celsius,"Internal sesnor temperature usually body cavity temperature in Celsius",
 8,light,,common,unitless,"Measured blue or green light on a logarithmic scale. Usually expressed as unitless by Wildlife Computers (light sensor in W cm-2), Lotek and Microwave Telemetry (light sensor in Lux) tags. Also termed as relative light levels.",
 9,accelX,,common,G,Acceleration in the X-axis expressed as gravitational force (1 G ~ 9.8 ms-2),
 10,accelY,,common,G,Acceleration in the Y-axis expressed as gravitational force (1 G ~ 9.8 ms-2),
