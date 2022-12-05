@@ -1,5 +1,5 @@
-variable_id,variable_name,standard_name,variable_source,variable_units,notes,standard_unit,Reference
-1,datetime,,common,time,Date time stamp usually understood to be in GMT time zone when time zone is not specified. Ideally the format after ISO8601 as yyyy-mm-dd hh:mm:ss,,
+variable_id,variable_name,standard_name,variable_source,variable_units,notes,standard_unit
+1,datetime,,common,time,Date time stamp usually understood to be in GMT time zone when time zone is not specified. Ideally the format after ISO8601 as yyyy-mm-dd hh:mm:ss,
 2,longitude,longitude,common,degree,Decimical degree,degree_east,
 3,latitude,latitude,common,degree,Decimical degree,degree_north,
 4,pressure,sea_water_pressure,common,psi,Pressure expressed as pound-force per square inch,dbar,
