@@ -11,7 +11,7 @@ attribute_id,category,attribute_name,description,example,comments,necessity,fish
 10,instrument,project,Name or identifer for project/ grant number,,,recommended,1,1,1,1,Tim Lam,semi-colon separated,,project (Recommended)  + program (Suggested)
 11,instrument,ptt,Platform Transmitting Terminal (PTT) number for Argos transmission.,,,recommended,1,1,1,1,Tim Lam,,,
 12,instrument,ptt_hex,PTT in hexadecimal,,,recommended,1,1,1,1,Tim Lam,,,
-13,instrument,specs,"Specification document name/ URL/ file (e.g., in xml)",,Need input from manufacturer. May allow attachment or upload. Or grab it from an online archive.,recommended,1,1,1,1,Tim Lam,Possible device specification metadata record in http://cor.esipfed.org/ont#/  system,,instrument (Suggested)  +  instrument_vocabulary (Suggested)
+13,instrument,specs,"Specification document name/ URL/ file (e.g. in xml)",,Need input from manufacturer. May allow attachment or upload. Or grab it from an online archive.,recommended,1,1,1,1,Tim Lam,Possible device specification metadata record in http://cor.esipfed.org/ont#/  system,,instrument (Suggested)  +  instrument_vocabulary (Suggested)
 14,instrument,code_map,Placeholder for acoustic tags,,Refer to ATN spec.,no,1,1,1,-1,Tim Lam,,,
 15,instrument,ping_code,Placeholder for acoustic tags,,Refer to ATN spec.,no,1,1,1,-1,Tim Lam,,,
 16,instrument,id_inhouse,"Identifier used internally by the organization responsible prior to the building of a unified database, e.g., ICCAT",,,optional,1,1,1,1,Jesus Garcia,,,
