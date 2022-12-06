@@ -48,7 +48,7 @@ attribute_id,category,attribute_name,description,example,comments,necessity
 212,attachment,antifouling_product,Brand name and/ product of antifoluling paint or coating applied ,"PropSpeed/ Micron66",,optional
 213,attachment,antiseptic_product,Brand name and/ product of antiseptic or sterilizing agent used during the attachment,"Iodine/ Cicatrin",,optional
 214,attachment,float_additional,Specify any additional floation used,,Float might be added to archival tags for external use.,optional
-215,attachment,release_forced,"If a mechanical release is engaged at depth (too avoid crushing the tag), specify the mechanism and depth at which the release is engaged.",Wildlife Computers RD1800,,optional
+215,attachment,release_forced,"If a mechanical release is engaged at depth (too avoid crushing the tag)/ specify the mechanism and depth at which the release is engaged.",Wildlife Computers RD1800,,optional
 300,deployment,geospatial_lat_start,Latitude (decimal degree) of release/ deployment,,,required
 301,deployment,geospatial_lon_start,Longitude (decimal degree) of release/ deployment,,,required
 302,deployment,person_tagger_capture,Person responsible for tagging or surgery,,"Can be the name of vet/ observer/ crew/ spear fisherman or scientist",required
@@ -65,53 +65,53 @@ attribute_id,category,attribute_name,description,example,comments,necessity
 313,deployment,person_angler_capture,Person responsible for angling,,,optional
 314,deployment,school_capture,Type of school in which the animal was caught,"Free school, log, anchored FAD, drifting FAD",Include FAD number if possible.,optional
 315,deployment,seastate_capture,World Meteorological Organization sea state code (0-9),,Similar to Douglas Sea Scale ,optional
-316,deployment,set_float_capture,"If caught on longline, include set number and float number",,"It's very unlikely to tag turtle, bird/ mammal off longline.",optional
+316,deployment,set_float_capture,"If caught on longline/ include set number and float number",,"It's very unlikely to tag turtle/ bird/ mammal off longline.",optional
 317,deployment,station_capture,Name or standard identifer of station,,,optional
 318,deployment,temp_degC_capture,Air or sea surface temperature (Celcius) when the animal was caught,,,optional
 319,deployment,vessel_capture,Name or standard identifer of vessel,,,optional
 320,deployment,wind_knots_capture,Wind speed (knots) when the animal was caught,,,optional
 321,deployment,notes_capture,Notes for the capture event,,,optional
-400,animal,condition_capture,Description of condition/ injury. Or specify scoring system and a score.,good,"Can be generic: good, bad, gut hooked, eye hooked, bleeding. Scoring system fof fish/ shark:  reflex action mortality predictor (RAMP), Kerstetter's lab ACES.  Measurement: Bioelectrical Impedance Analysis (BIA) gives phase angle and composition index. Fat: Distell Fatmeter",required
+400,animal,condition_capture,Description of condition/ injury. Or specify scoring system and a score.,good,"Can be generic: good/ bad/ gut hooked/ eye hooked/ bleeding. Scoring system fof fish/ shark: reflex action mortality predictor (RAMP)/ Kerstetter's lab ACES. Measurement: Bioelectrical Impedance Analysis (BIA) gives phase angle and composition index. Fat: Distell Fatmeter",required
 401,animal,length_capture,Length of the animal,300,,required
 402,animal,length_method_capture,Method used to obtain the measurement,"measured caliper, measured tape,  estimated, calculated",Calculated means it's calculated from length-weight relationships or other conversions.,required
-403,animal,length_type_capture,Type of length measurement," Curved fork length, Straight fork length, total length.  for turtle the standard measurements are Curved Carapace Length (CCL), Straight Carapace Length (SCL), Curved Carapace Width (CCW) and Straight Carapace Width (SCW), and researchers occasionally measure girth as well. ",May need to compile a list of types and abbreviations,required
+403,animal,length_type_capture,Type of length measurement,"Curved fork length/ Straight fork length/ total length. For turtle the standard measurements are Curved Carapace Length (CCL)/ Straight Carapace Length (SCL)/ Curved Carapace Width (CCW) and Straight Carapace Width (SCW)/ and researchers occasionally measure girth as well. ",May need to compile a list of types and abbreviations,required
 404,animal,length_unit_capture,Unit of length measurement,centimeter,May need to compile a list of types and abbreviations,required
 405,animal,platform,Common name(s) or FAO code for species name,,Refer to www.itis.gov or FAO species list,required
 406,animal,taxonomic_serial_number,Taxononomic Serial Number (TSN) from Integrated Taxonomic Information System,,https://www.itis.gov,required
-500,animal,condition_recapture,Description of condition/ injury. Or specify scoring system and a score.,,"Can be generic: good, bad, gut hooked, eye hooked, bleeding. Scoring system fof fish/ shark:  reflex action mortality predictor (RAMP), Kerstetter's lab ACES.  Measurement: Bioelectrical Impedance Analysis (BIA) gives phase angle and composition index. Fat: Distell Fatmeter",recommended
-501,animal,fate_recapture,Fate of the animal upon recapture,"harvested, released, tag and release, missing, unknown; observed/ photo ID",,recommended
-502,animal,length_method_recapture,Method used to obtain the measurement,"measured Caliper, measured tape, estimated, calculated",Calculated means it's calculated from length-weight relationships or other conversions,recommended
+500,animal,condition_recapture,Description of condition/ injury. Or specify scoring system and a score.,,"Can be generic: good/ bad/ gut hooked/ eye hooked/ bleeding. Scoring system fof fish/ shark: reflex action mortality predictor (RAMP)/ Kerstetter's lab ACES. Measurement: Bioelectrical Impedance Analysis (BIA) gives phase angle and composition index. Fat: Distell Fatmeter",recommended
+501,animal,fate_recapture,Fate of the animal upon recapture,"harvested/ released/ tag and release/ missing/ unknown; observed/ photo ID",,recommended
+502,animal,length_method_recapture,Method used to obtain the measurement,"measured Caliper/ measured tape/ estimated/ calculated",Calculated means it's calculated from length-weight relationships or other conversions,recommended
 503,animal,length_recapture,Length of the animal,,,recommended
-504,animal,length_type_recapture,Type of length measurement,"SFL, CFL, TL, etc",May need to compile a list of types and abbreviations,recommended
+504,animal,length_type_recapture,Type of length measurement,"SFL/ CFL/ TL/ etc",May need to compile a list of types and abbreviations,recommended
 505,animal,length_unit_recapture,Unit of length measurement,,May need to compile a list of types and abbreviations,recommended
-407,animal,lifestage_capture,Life stage of the animal,"adult, juvenile, subadult, weaner",,recommended
+407,animal,lifestage_capture,Life stage of the animal,"adult/ juvenile/ subadult/ weaner",,recommended
 506,animal,lifestage_recapture,Life stage of the animal,,,recommended
 408,animal,tag_placement,Description of where the tag was placed.,second dorsal fin,,recommended
-507,animal,age_recapture,Age from direct aging methods if available,"year-of-young, 3 y.o. etc.",Can be used to back calculate age of the individual at capture,optional
-409,animal,hours_soaktime_capture,"If caught on longline, specify soak time In hours",,,optional
-508,animal,hours_soaktime_recapture,"If caught on longline, specify soak time In hours",,,optional
+507,animal,age_recapture,Age from direct aging methods if available,"year-of-young/ 3 y.o. etc.",Can be used to back calculate age of the individual at capture,optional
+409,animal,hours_soaktime_capture,"If caught on longline/ specify soak time in hours",,,optional
+508,animal,hours_soaktime_recapture,"If caught on longline/ specify soak time in hours",,,optional
 410,animal,implant_numsuture,Number of suture used to close the wound,,Internal archival only,optional
-411,animal,minutes_fighttime_capture,"If caught on rod and wheel or handline, specify fight time",,,optional
-509,animal,minutes_fighttime_recapture,"If caught on rod and wheel or handline, specify fight time",,,optional
+411,animal,minutes_fighttime_capture,"If caught on rod and wheel or handline/ specify fight time",,,optional
+509,animal,minutes_fighttime_recapture,"If caught on rod and wheel or handline/ specify fight time",,,optional
 412,animal,minutes_operation,Time used (minutes) in carrying out the attachment or surgical procedure.,,,optional
-413,animal,minutes_revival,"If the animal is revived, specify revival time in minutes",,Can be time used in swimming the animal before release,optional
+413,animal,minutes_revival,"If the animal is revived/ specify revival time in minutes",,Can be time used in swimming the animal before release,optional
 414,animal,mount_numbolts,Number of bolts used for mounting,,,optional
-415,animal,sex,Sex of the animal,"male, female, unknown",Likely only applicable to sharks upon visual confirmation,optional
-416,animal,stock,Stock origin if known,"East, West, unknown etc.",,optional
-417,animal,tissue_sample_capture,List other sample types and sample IDs if collected,Blood-ID02101,"Tissue can be any issue: fin clip, blood, scale, biopsy etc.",optional
-510,animal,tissue_sample_recapture,List other sample types and sample IDs if collected,,"Tissue can be any issue: fin clip, blood, scale, hard parts, stomach, muscle, biopsy etc.",optional
+415,animal,sex,Sex of the animal,"male/ female or unknown",Likely only applicable to sharks upon visual confirmation,optional
+416,animal,stock,Stock origin if known,"East/ West/ unknown/ etc.",,optional
+417,animal,tissue_sample_capture,List other sample types and sample IDs if collected,Blood-ID02101,"Tissue can be any issue: fin clip/ blood/ scale/ biopsy etc.",optional
+510,animal,tissue_sample_recapture,List other sample types and sample IDs if collected,,"Tissue can be any issue: fin clip/ blood/ scale/ hard parts/ stomach/ muscle/ biopsy etc.",optional
 418,animal,weight_capture,Weight of the animal,1200,,optional
-419,animal,weight_method_capture,Method used to obtain the measurement,"measured, estimated, calculated",Calculated means it's calculated from length-weight relationships or other conversions,optional
-511,animal,weight_method_recapture,Method used to obtain the measurement,"measured, estimated, calculated",Calculated means it's calculated from length-weight relationships or other conversions,optional
+419,animal,weight_method_capture,Method used to obtain the measurement,"measured/ estimated/ calculated",Calculated means it's calculated from length-weight relationships or other conversions,optional
+511,animal,weight_method_recapture,Method used to obtain the measurement,"measured/ estimated/ calculated",Calculated means it's calculated from length-weight relationships or other conversions,optional
 512,animal,weight_recapture,Weight of the animal,,,optional
-420,animal,weight_type_capture,Type of weight measurement,whole,"May need to compile a list of types and abbreviations: whole, dressed, gilled & gutted",optional
-513,animal,weight_type_recapture,Type of weight measurement,,"May need to compile a list of types and abbreviations: whole, dressed, gilled & gutted",optional
+420,animal,weight_type_capture,Type of weight measurement,whole,"May need to compile a list of types and abbreviations: whole/ dressed/ gilled & gutted",optional
+513,animal,weight_type_recapture,Type of weight measurement,,"May need to compile a list of types and abbreviations: whole/ dressed/ gilled & gutted",optional
 421,animal,weight_unit_capture,Unit of weight measurement,pound,,optional
 514,animal,weight_unit_recapture,Unit of weight measurement,,,optional
 422,animal,friendly_name,Friendly or public-facing name given to an individual tagged animal,Lydia,,optional
 600,end_of_mission,time_coverage_end,End date time (yyyy-mm-dd hh:mm:ss) in ISO 8601 or date range (BETWEEN yyyy-mm-dd AND yyyy-mm-dd) if estimated/ guessed.,2017-07-11T18:24:23+00:00,http://en.wikipedia.org/wiki/ISO_8601,required
-601,end_of_mission,end_details,Describe any detail about how the mission ended.,"GPS, Argos, estimated, calculated, modeled, recovered on animal, floater at sea, animal died and sank, recovered on land, recovered by fishing fleet, recovered in port, transfer in transshipment, found in well number X, recovered in processing plant",http://www.spc.int/TAGGING/en/publications/tagging-publications/viewcategory/13,required
-602,end_of_mission,end_type,Description of how the end point is derived for the device.,"first reported, recaptured, last transmission, recovered",,required
+601,end_of_mission,end_details,Describe any detail about how the mission ended.,"GPS/ Argos/ estimated/ calculated/ modeled/ recovered on animal/ floater at sea/ animal died and sank/ recovered on land/ recovered by fishing fleet/ recovered in port/ transfer in transshipment/ found in well number X/ recovered in processing plant",http://www.spc.int/TAGGING/en/publications/tagging-publications/viewcategory/13,required
+602,end_of_mission,end_type,Description of how the end point is derived for the device.,"first reported/ recaptured/ last transmission/ recovered",,required
 603,end_of_mission,geospatial_lat_end,End latitude,,,required
 604,end_of_mission,geospatial_lon_end,End longitude,,,required
 605,end_of_mission,locationclass_end,Argos location class for popup location or satellite transmission,,,recommended
@@ -123,7 +123,7 @@ attribute_id,category,attribute_name,description,example,comments,necessity
 703,recovery,baitlure_recapture,"Bait, chum, lure or decoy used",,Use brand name and/ product when possible,optional
 704,recovery,cruise_recapture,Name or standard identifer of cruise,,,optional
 705,recovery,depth_m_recapture,Depth (meters) at which the animal was caught,,Can use estimated depth from hook number on longline,optional
-706,recovery,flag_recapture,The vessels country of registration,,,optional
+706,recovery,flag_recapture,The vessels country of registration,,,optional
 707,recovery,hook_recapture,Type of hook used,,Use brand name and/ product when possible.,optional
 708,recovery,person_tagger_recapture,Person responsible for tag-and-release in a re-tagging event,,Very unlikely to re-tag turtle or mammal,optional
 709,recovery,retagged_recapture,"List tag IDs for conventional, acoustic, PIT, band or satellite tags for multi-tagged situation, photoID, photo/video footage file names",,"Re-tagging with ""new"" instruments",optional
