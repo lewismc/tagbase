@@ -126,18 +126,18 @@ attribute_id,category,attribute_name,description,example,comments,necessity
 706,recovery,flag_recapture,The vessels country of registration,,,optional
 707,recovery,hook_recapture,Type of hook used,,Use brand name and/ product when possible.,optional
 708,recovery,person_tagger_recapture,Person responsible for tag-and-release in a re-tagging event,,Very unlikely to re-tag turtle or mammal,optional
-709,recovery,retagged_recapture,"List tag IDs for conventional, acoustic, PIT, band or satellite tags for multi-tagged situation, photoID, photo/video footage file names",,"Re-tagging with ""new"" instruments",optional
-710,recovery,school_recapture,Type of school in which the animal was caught,"Free school, log, anchored FAD, drifting FAD",Include FAD number if possible,optional
-711,recovery,seastate_recapture,World Meteorological Organization sea state code (0-9),,Similar to Douglas Sea Scale ,optional
-712,recovery,set_float_recapture,"If caught on longline, include set number and float number",,,optional
+709,recovery,retagged_recapture,"List tag IDs for conventional/ acoustic/ PIT/ band or satellite tags for multi-tagged situation/ photoID/ photo/video footage file names",,"Re-tagging with ""new"" instruments",optional
+710,recovery,school_recapture,Type of school in which the animal was caught,"Free school/ log/ anchored FAD/ drifting FAD",Include FAD number if possible,optional
+711,recovery,seastate_recapture,World Meteorological Organization sea state code (0-9),,Similar to Douglas Sea Scale,optional
+712,recovery,set_float_recapture,"If caught on longline/ include set number and float number",,,optional
 713,recovery,station_recapture,Name or standard identifer of station,,,optional
 714,recovery,temp_degC_recapture,Air or sea surface temperature (Celcius) when the animal was caught,,,optional
 715,recovery,vessel_recapture,Name or standard identifer of vessel,,,optional
 716,recovery,wind_knots_recapture,Wind speed (knots) when the animal was caught,,,optional
 717,recovery,notes_recapture,Notes for the recapture event,,,optional
-998,waypoints,referencetrack_included,"Is a reference track available and included in this eTUFF file? By reference, it means the track is the best currently available.","0, 1","Use 0 for no and 1 for yes. Optional decision to assign another flag for ""pending"". But unlikely to be useful",required
-999,waypoints,othertracks_numof,"Are other track solutions included as alternatives to the reference track? If so, state how many is/ are included in this eTUFF file.",any integer > 0,,required
-1000,waypoints,waypoints_source,State the source for waypoints of the reference track,"Argos, GPS, acoustic detections, manufacturer, modeled","Waypoints are ""points"" along the trajectory of the tagged animal between the start and end dates.",recommended
+998,waypoints,referencetrack_included,"Is a reference track available and included in this eTUFF file? By reference/ it means the track is the best currently available.","0/ 1","Use 0 for no and 1 for yes. Optional decision to assign another flag for ""pending"". But unlikely to be useful",required
+999,waypoints,othertracks_numof,"Are other track solutions included as alternatives to the reference track? If so/ state how many is/ are included in this eTUFF file.",any integer > 0,,required
+1000,waypoints,waypoints_source,State the source for waypoints of the reference track,"Argos/ GPS/ acoustic detections/ manufacturer/ modeled","Waypoints are ""points"" along the trajectory of the tagged animal between the start and end dates.",recommended
 1001,waypoints,geolocation_parameters,List of geocorrection parameters and associated values implemented to generate the reference track. Semi-colon seperated list in format 'parameter1:value'; 'parameter2:value';...,"eg. 'diffusion_coefficien:0.3', 'satellite_sst': https://podaac.jpl.nasa.gov/dataset/NCDC-L4LRblend-GLOB-AVHRR_OI', ...",Assuming only 1 set of waypoints per tag data file.,recommended
 1002,waypoints,interpolation_method,"None if no interpolation needed to generate the reference track. Otherwise, specify method/ software used.","None, crawl, Bézier curves, Hermite splines and cubic splines",,recommended
 1003,waypoints,interpolation_time,Specify the time interval for interpolation in the reference track.,"0, 1 hour, gap filling",Use 0 for no interpolation or gap filling for data points without any coordinates.,recommended
