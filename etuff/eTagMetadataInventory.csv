@@ -1,8 +1,8 @@
 attribute_id,category,attribute_name,description,example,comments,necessity
 1,instrument,instrument_name,Append an identifer that is unique within your organization. This is essential if a device is recycled.,16P0100-Refurb2,Devices might be reused so the serial number will be the same. The only way to distinguish is by providing a unique name for the recycled product. ,required
-2,instrument,instrument_type,Type of instrument,"archival, popup, satellite, acoustic tag, or acoustic receiver",Should be restricted to the examples provided.,required
+2,instrument,instrument_type,Type of instrument,"archival popup satellite acoustic tag or acoustic receiver",Should be restricted to the examples provided.,required
 3,instrument,firmware,Version number of the firmware used to build the device,,,required
-4,instrument,manufacturer,Name of manufacturer,"Wildlife Computers, Microwave Telemetry, Lotek Wireless, Desert Star Systems, CEFAS, StarOddi, Sea Mammal Research Unit, Vemco, Loggerhead Instruments, Biologging Solutions, Little Leonardo, Teleonics etc.",,required
+4,instrument,manufacturer,Name of manufacturer,"Wildlife Computers Microwave Telemetry Lotek Wireless Desert Star Systems CEFAS StarOddi Sea Mammal Research Unit Vemco Loggerhead Instruments Biologging Solutions Little Leonardo Teleonics etc.",,required
 5,instrument,model,Model name,MiniPAT,,required
 6,instrument,owner_contact,Contact email/ telephone/ address,,,required
 7,instrument,person_owner,Researcher/ organization owning the device,,PI/scientist/organization is used interchargably here. But best to have a first-last name specified here.,required
