@@ -23,7 +23,7 @@ attribute_id,category,attribute_name,description,example,comments,necessity
 82,share,results_dissemination_level,"Permission to show/ publish instrument data in any setting (e.g., journal research article, technical report, general audience magazine feature or  web-based GIS) ",,,optional
 83,share,restriction_expiration_date,"If a restriction is placed by the data owner(s) on sharing or publishing, when will this expire?",,,optional
 84,share,citation,DOI of a published article/ SCRS document number/ url/ website where the data set has been published,,,optional
-85,share,data_repository,"DOI or URL of the dataset in a public repository, e.g. www.pangaea.de",,,optional
+85,share,data_repository,"DOI or URL of the dataset in a public repository e.g. www.pangaea.de",,,optional
 100,programming,programming_report,File/ URL to a report listing the details of programming,,Need input from manufacturer. May allow attachment or upload. Or grab it from an online archive.,required
 101,programming,programming_software,Programming software with version number,,,required
 102,programming,days_constantdepth,Days at a constant depth before release is initiated ,1,This represents a time lag in days after the tag is  floating/ detached/ sunk before the release procedure will be initiated. ,recommended
