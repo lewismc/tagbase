@@ -39,7 +39,7 @@ attribute_id,category,attribute_name,description,example,comments,necessity
 203,attachment,anchor_material,Material of anchor,"nylon urethane stainless steel titanium",,recommended
 204,attachment,anchor_type,Type of anchor,"Domeier/ Wilton/ or Titanium",,recommended
 205,attachment,attachment_product,Brand name and/ product for attachment materials used,"VetBond Peel Ply tesa® 4651","Brand and product name of suture stainless steel wire monofilament bolt tape adhesive epoxy suction cup air gun speargun pole applicator and tip.",recommended
-206,attachment,mount_type,Type of mount,"Fin, tail, carapacial ridge",,recommended
+206,attachment,mount_type,Type of mount,"Fin/ tail/ carapacial ridge",,recommended
 207,attachment,release_method,Method to get a tag detached from the animal/ anchor,"corrosive/ burn/ wire/ oxidative/ explosive/ galavanizing metal/ acoustic release",,recommended
 208,attachment,tether_assembly,Materials and methods in constructing a tether,heat-shrink or silicon tubing,Use brand name and/ product when possible.,recommended
 209,attachment,tether_length_cm,End to end length (centimeter) of a tether,,,recommended
@@ -161,8 +161,8 @@ attribute_id,category,attribute_name,description,example,comments,necessity
 1201,quality,person_qc,Person responsible for quality control,,,required
 1202,quality,problem_affecteddates,Date range (BETWEEN yyyy-mm-dd AND yyyy-mm-dd) in which data quality is in doubt,,,recommended
 1203,quality,problem_details,Provide details for the problem(s),Daily drift after sunset by 1.5 degC,,recommended
-1204,quality,problem_numof,Number of problems found,1,"Hard to cover all problems here, e.g., date of post-release mortality/ predation, broken light stalk, broken hardware, tag failure modes",recommended
+1204,quality,problem_numof,Number of problems found,1,"Hard to cover all problems here e.g. date of post-release mortality/ predation/ broken light stalk/ broken hardware/ tag failure modes",recommended
 1205,quality,problem_summary,List short description(s) for the problem(s),Temperature sensor drift,,recommended
 1206,quality,calibration_file,Files/ URLs used for calibration of sensors,,,optional
-1207,quality,rawdata_availability,"Describe the availability of raw data (sensor data such as light, temperature, depth ) obtainable from the tag",,,optional
+1207,quality,rawdata_availability,"Describe the availability of raw data (sensor data such as light/ temperature/ depth) obtainable from the tag",,,optional
 1208,quality,notes_misc,Placeholder for whatever notes needed,,,optional
