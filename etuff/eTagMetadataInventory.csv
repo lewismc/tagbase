@@ -20,8 +20,8 @@ attribute_id,category,attribute_name,description,example,comments,necessity
 19,instrument,owner_code,Provide abbreviated name/ code of the owner(s),,,optional
 20,instrument,purchase_order,Purchase order record for internal housekeeping,,,optional
 81,share,data_dissemination_level,Permission to distribute instrument data to personnel other than the owner(s),,,optional
-82,share,results_dissemination_level,"Permission to show/ publish instrument data in any setting (e.g., journal research article, technical report, general audience magazine feature or  web-based GIS) ",,,optional
-83,share,restriction_expiration_date,"If a restriction is placed by the data owner(s) on sharing or publishing, when will this expire?",,,optional
+82,share,results_dissemination_level,"Permission to show/ publish instrument data in any setting (e.g. journal research article technical report general audience magazine feature or web-based GIS)",,,optional
+83,share,restriction_expiration_date,"If a restriction is placed by the data owner(s) on sharing or publishing when will this expire?",,,optional
 84,share,citation,DOI of a published article/ SCRS document number/ url/ website where the data set has been published,,,optional
 85,share,data_repository,"DOI or URL of the dataset in a public repository e.g. www.pangaea.de",,,optional
 100,programming,programming_report,File/ URL to a report listing the details of programming,,Need input from manufacturer. May allow attachment or upload. Or grab it from an online archive.,required
