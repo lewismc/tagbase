@@ -63,7 +63,7 @@ attribute_id,category,attribute_name,description,example,comments,necessity
 311,deployment,method_aboard,how was animal put aboard the vessel,"net/ sling or lifted",,optional
 312,deployment,othertags_capture,"List tag IDs for conventional/ acoustic/ PIT/ band or satellite tags for multi-tagged situation/ photoID/ photo/video footage file names",Hallprint PAR007007,,optional
 313,deployment,person_angler_capture,Person responsible for angling,,,optional
-314,deployment,school_capture,Type of school in which the animal was caught,"Free school, log, anchored FAD, drifting FAD",Include FAD number if possible.,optional
+314,deployment,school_capture,Type of school in which the animal was caught,"Free school/ log/ anchored FAD/ drifting FAD",Include FAD number if possible.,optional
 315,deployment,seastate_capture,World Meteorological Organization sea state code (0-9),,Similar to Douglas Sea Scale ,optional
 316,deployment,set_float_capture,"If caught on longline/ include set number and float number",,"It's very unlikely to tag turtle/ bird/ mammal off longline.",optional
 317,deployment,station_capture,Name or standard identifer of station,,,optional
@@ -116,11 +116,11 @@ attribute_id,category,attribute_name,description,example,comments,necessity
 604,end_of_mission,geospatial_lon_end,End longitude,,,required
 605,end_of_mission,locationclass_end,Argos location class for popup location or satellite transmission,,,recommended
 606,end_of_mission,datetime_death,"If mortality occurs before end datetime, specify date time (yyyy-mm-dd hh:mm:ss) in ISO 8601",2017-07-11T18:24:23+00:00,http://en.wikipedia.org/wiki/ISO_8601,optional
-607,end_of_mission,end_status,"Populate with any status message obtained about how the mission ended. In the case of Wildlife Computers popup tags, this maps to ""ReleaseType"" in -Status.csv","pin broke, floater, battery low, scheduled, interval, too deep, premature",http://static.wildlifecomputers.com/manuals/Spreadsheet-File-Descriptions.pdf,optional
+607,end_of_mission,end_status,"Populate with any status message obtained about how the mission ended. In the case of Wildlife Computers popup tags/ this maps to ""ReleaseType"" in -Status.csv","pin broke/ floater/ battery low/ scheduled/ interval/ too deep/ premature",http://static.wildlifecomputers.com/manuals/Spreadsheet-File-Descriptions.pdf,optional
 700,recovery,location_recapture,Name or standard identifer of location,,,recommended
-701,recovery,method_recapture,Type of gear used to catch the recaptured animal,"Longline, purse seine, troll, trawl, rod and reel, handline, set net, trap, gillnet, harpoon, hoop net, anesthesia, tangle net, dip net, vertical line entanglement (commercial fisheries, aquaculture, mooring), dredge, pound net/weir (for turtles)",,recommended
-702,recovery,person_recapture,Person responsible for the recapture,,"Name of angler, observer, scientist, fisher etc.",recommended
-703,recovery,baitlure_recapture,"Bait, chum, lure or decoy used",,Use brand name and/ product when possible,optional
+701,recovery,method_recapture,Type of gear used to catch the recaptured animal,"Longline/ purse seine/ troll/ trawl/ rod and reel/ handline/ set net/ trap/ gillnet/ harpoon/ hoop net/ anesthesia/ tangle net/ dip net/ vertical line entanglement (commercial fisheries/ aquaculture/ mooring)/ dredge/ pound net/weir (for turtles)",,recommended
+702,recovery,person_recapture,Person responsible for the recapture,,"Name of angler/ observer/ scientist/ fisher etc.",recommended
+703,recovery,baitlure_recapture,"Bait/ chum/ lure or decoy used",,Use brand name and/ product when possible,optional
 704,recovery,cruise_recapture,Name or standard identifer of cruise,,,optional
 705,recovery,depth_m_recapture,Depth (meters) at which the animal was caught,,Can use estimated depth from hook number on longline,optional
 706,recovery,flag_recapture,The vessels country of registration,,,optional
