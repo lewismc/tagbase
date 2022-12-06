@@ -35,33 +35,33 @@ attribute_id,category,attribute_name,description,example,comments,necessity
 108,programming,seconds_sampling_highfreq,Sampling rate (seconds) for sensor sampling at a higher frequency,,"For sensors that sample in Hertz (Hz) e.g. accelerometer or magnetometer",optional
 200,attachment,attachment_method,Method used to put the tag on/ in the animal,"tow glue suction anchor mount implant harness backpack","Should be restricted to the examples provided. Tow includes tethered for popup or towed for satellite tags. Glue is using adhensive or epoxy. Mount is using screw/ bolt/ button/ sleeve or backpack. Anchor is equivalent to applying a conventional tag or using a gun (air/ spear etc.). Implant implies surgery/ ingestion or insertion.",required
 201,attachment,anchor_depth_cm,How deep (centimeter) should the anchor be in the animal?,8,May be used for cetacean tagging.,recommended
-202,attachment,anchor_dimensions_mm,"Dimensions (millimeter) as length, width, thichkness or diameter.",20 L x 14 W,"Can be used loosely as size: small medium and large.",recommended
+202,attachment,anchor_dimensions_mm,"Dimensions (millimeter) as length/ width/ thichkness or diameter.",20 L x 14 W,"Can be used loosely as size: small/ medium and large.",recommended
 203,attachment,anchor_material,Material of anchor,"nylon urethane stainless steel titanium",,recommended
-204,attachment,anchor_type,Type of anchor,"Domeier, Wilton, Titanium",,recommended
-205,attachment,attachment_product,Brand name and/ product for attachment materials used,"VetBond Peel Ply  tesa® 4651","Brand and product name of suture stainless steel wire monofilament bolt tape adhesive epoxy suction cup air gun speargun pole applicator and tip.",recommended
+204,attachment,anchor_type,Type of anchor,"Domeier/ Wilton/ or Titanium",,recommended
+205,attachment,attachment_product,Brand name and/ product for attachment materials used,"VetBond Peel Ply tesa® 4651","Brand and product name of suture stainless steel wire monofilament bolt tape adhesive epoxy suction cup air gun speargun pole applicator and tip.",recommended
 206,attachment,mount_type,Type of mount,"Fin, tail, carapacial ridge",,recommended
-207,attachment,release_method,Method to get a tag detached from the animal/ anchor,"corrosive burn wire, oxidative/ explosive, galavanizing metal, acoustic release",,recommended
+207,attachment,release_method,Method to get a tag detached from the animal/ anchor,"corrosive/ burn/ wire/ oxidative/ explosive/ galavanizing metal/ acoustic release",,recommended
 208,attachment,tether_assembly,Materials and methods in constructing a tether,heat-shrink or silicon tubing,Use brand name and/ product when possible.,recommended
 209,attachment,tether_length_cm,End to end length (centimeter) of a tether,,,recommended
-210,attachment,tether_material,Tether material for a towed tag,"stainless steel wire, monofilament",Use brand name and/ product when possible.,recommended
-211,attachment,anesthetic_product,Brand name and/ product of anesthesia used during the attachment,"metomidate, Aqua-S",,optional
-212,attachment,antifouling_product,Brand name and/ product of antifoluling paint or coating applied ,"PropSpeed, Micron66",,optional
-213,attachment,antiseptic_product,Brand name and/ product of antiseptic or sterilizing agent used during the attachment,"Iodine, Cicatrin",,optional
+210,attachment,tether_material,Tether material for a towed tag,"stainless steel wire/ monofilament",Use brand name and/ product when possible.,recommended
+211,attachment,anesthetic_product,Brand name and/ product of anesthesia used during the attachment,"metomidate/ Aqua-S",,optional
+212,attachment,antifouling_product,Brand name and/ product of antifoluling paint or coating applied ,"PropSpeed/ Micron66",,optional
+213,attachment,antiseptic_product,Brand name and/ product of antiseptic or sterilizing agent used during the attachment,"Iodine/ Cicatrin",,optional
 214,attachment,float_additional,Specify any additional floation used,,Float might be added to archival tags for external use.,optional
 215,attachment,release_forced,"If a mechanical release is engaged at depth (too avoid crushing the tag), specify the mechanism and depth at which the release is engaged.",Wildlife Computers RD1800,,optional
 300,deployment,geospatial_lat_start,Latitude (decimal degree) of release/ deployment,,,required
 301,deployment,geospatial_lon_start,Longitude (decimal degree) of release/ deployment,,,required
-302,deployment,person_tagger_capture,Person responsible for tagging or surgery,,"Can be the name of vet, observer, crew, spear fisherman or scientist",required
+302,deployment,person_tagger_capture,Person responsible for tagging or surgery,,"Can be the name of vet/ observer/ crew/ spear fisherman or scientist",required
 303,deployment,time_coverage_start,Local date time (yyyy-mm-dd hh:mm:ss) in ISO 8601 of release/ deployment,2017-07-11T18:24:23+00:00,http://en.wikipedia.org/wiki/ISO_8601,required
 304,deployment,location_capture,Name or standard identifer of location,,,recommended
-305,deployment,method_capture,Type of gear used to catch the animal,"Longline, purse seine, troll, trawl, rod and reel, handline, set net, trap, gillnet, harpoon, hoop net, anesthesia, tangle net, dip net, vertical line entanglement (commercial fisheries, aquaculture, mooring), dredge, pound net/weir (for turtles)",,recommended
-306,deployment,baitlure_capture,"Bait, chum, lure or decoy used",sardine,Use brand name and/ product when possible.,optional
+305,deployment,method_capture,Type of gear used to catch the animal,"Longline/ purse seine/ troll/ trawl/ rod and reel/ handline/ set net/ trap/ gillnet/ harpoon/ hoop net/ anesthesia/ tangle net/ dip net/ vertical line entanglement (commercial fisheries/ aquaculture/ mooring)/ dredge/ pound net/weir (for turtles)",,recommended
+306,deployment,baitlure_capture,"Bait/ chum/ lure or decoy used",sardine,Use brand name and/ product when possible.,optional
 307,deployment,cruise_capture,Name or standard identifer of cruise,,,optional
 308,deployment,depth_m_capture,Depth (meters) at which the animal was caught,,Can use estimated depth from hook number on longline,optional
-309,deployment,flag_capture,The vessels country of registration,,,optional
+309,deployment,flag_capture,The vessels country of registration,,,optional
 310,deployment,hook_capture,Type of hook used,18/0 circle,Use brand name and/ product when possible.,optional
-311,deployment,method_aboard,how was animal put aboard the vessel,"net, sling, lifted",,optional
-312,deployment,othertags_capture,"List tag IDs for conventional, acoustic, PIT, band or satellite tags for multi-tagged situation, photoID, photo/video footage file names",Hallprint PAR007007,,optional
+311,deployment,method_aboard,how was animal put aboard the vessel,"net/ sling or lifted",,optional
+312,deployment,othertags_capture,"List tag IDs for conventional/ acoustic/ PIT/ band or satellite tags for multi-tagged situation/ photoID/ photo/video footage file names",Hallprint PAR007007,,optional
 313,deployment,person_angler_capture,Person responsible for angling,,,optional
 314,deployment,school_capture,Type of school in which the animal was caught,"Free school, log, anchored FAD, drifting FAD",Include FAD number if possible.,optional
 315,deployment,seastate_capture,World Meteorological Organization sea state code (0-9),,Similar to Douglas Sea Scale ,optional
