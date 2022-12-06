@@ -14,7 +14,7 @@ attribute_id,category,attribute_name,description,example,comments,necessity
 13,instrument,specs,Specification document name/ URL/ file (e.g. in xml),,Need input from manufacturer. May allow attachment or upload. Or grab it from an online archive.,recommended
 14,instrument,code_map,Placeholder for acoustic tags,,Refer to ATN spec.,no
 15,instrument,ping_code,Placeholder for acoustic tags,,Refer to ATN spec.,no
-16,instrument,id_inhouse,"Identifier used internally by the organization responsible prior to the building of a unified database, e.g., ICCAT",,,optional
+16,instrument,id_inhouse,"Identifier used internally by the organization responsible prior to the building of a unified database e.g. ICCAT",,,optional
 17,instrument,id_byowner,Unique identifier/ tag ID provided by the person/institution sharing the data,,,optional
 18,instrument,owner_teams,List all organizations involved in a collaborative team that are co-owners of the instrument,,,optional
 19,instrument,owner_code,Provide abbreviated name/ code of the owner(s),,,optional
