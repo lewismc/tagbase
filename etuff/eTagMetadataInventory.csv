@@ -23,22 +23,22 @@ attribute_id,category,attribute_name,description,example,comments,necessity
 82,share,results_dissemination_level,"Permission to show/ publish instrument data in any setting (e.g., journal research article, technical report, general audience magazine feature or  web-based GIS) ",,,optional
 83,share,restriction_expiration_date,"If a restriction is placed by the data owner(s) on sharing or publishing, when will this expire?",,,optional
 84,share,citation,DOI of a published article/ SCRS document number/ url/ website where the data set has been published,,,optional
-85,share,data_repository,"DOI or URL of the dataset in a public repository, e.g., www.pangaea.de",,,optional
+85,share,data_repository,"DOI or URL of the dataset in a public repository, e.g. www.pangaea.de",,,optional
 100,programming,programming_report,File/ URL to a report listing the details of programming,,Need input from manufacturer. May allow attachment or upload. Or grab it from an online archive.,required
 101,programming,programming_software,Programming software with version number,,,required
 102,programming,days_constantdepth,Days at a constant depth before release is initiated ,1,This represents a time lag in days after the tag is  floating/ detached/ sunk before the release procedure will be initiated. ,recommended
 103,programming,days_mission,Programmed mission length in days,365,,recommended
 104,programming,minutes_summary,Interval in minutes during when data are summarized for that period,1440,Data are summarized because of Argos transmission constraint.,recommended
 105,programming,person_programmer,Person responsible for the programming,,,recommended
-106,programming,seconds_sampling,Sampling rate (seconds) for sensor sampling,15,"For basic sensors,  e.g., pressure, temperature, light",recommended
-107,programming,seconds_writingdata,Time interval in seconds when sampled data are written to onboard storage memory,300,"This specifies how frequent data will be stored, and subsequently available for download or summarizing.",recommended
+106,programming,seconds_sampling,Sampling rate (seconds) for sensor sampling,15,"For basic sensors e.g. pressure temperature light",recommended
+107,programming,seconds_writingdata,Time interval in seconds when sampled data are written to onboard storage memory,300,"This specifies how frequent data will be stored and subsequently available for download or summarizing.",recommended
 108,programming,seconds_sampling_highfreq,Sampling rate (seconds) for sensor sampling at a higher frequency,,"For sensors that sample in Hertz (Hz),  e.g., accelerometer, magnetometer",optional
-200,attachment,attachment_method,Method used to put the tag on/ in the animal,"tow, glue, suction, anchor, mount, implant, harness, backpack","Should be restricted to the examples provided. Tow includes tethered for popup or towed for satellite tags . Glue is using adhensive or epoxy. Mount is using screw, bolt, button, sleeve or backpack. Anchor is equivalent to applying a conventional tag or using a gun (air, spear etc.). Implant implies surgery, ingestion or insertion.",required
+200,attachment,attachment_method,Method used to put the tag on/ in the animal,"tow glue suction anchor mount implant harness backpack","Should be restricted to the examples provided. Tow includes tethered for popup or towed for satellite tags . Glue is using adhensive or epoxy. Mount is using screw, bolt, button, sleeve or backpack. Anchor is equivalent to applying a conventional tag or using a gun (air, spear etc.). Implant implies surgery, ingestion or insertion.",required
 201,attachment,anchor_depth_cm,How deep (centimeter) should the anchor be in the animal?,8,May be used for cetacean tagging.,recommended
-202,attachment,anchor_dimensions_mm,"Dimensions (millimeter) as length, width, thichkness or diameter.",20 L x 14 W,"Can be used loosely as size: small, medium and large.",recommended
-203,attachment,anchor_material,Material of anchor,"nylon, urethane, stainless steel, titanium",,recommended
+202,attachment,anchor_dimensions_mm,"Dimensions (millimeter) as length, width, thichkness or diameter.",20 L x 14 W,"Can be used loosely as size: small medium and large.",recommended
+203,attachment,anchor_material,Material of anchor,"nylon urethane stainless steel titanium",,recommended
 204,attachment,anchor_type,Type of anchor,"Domeier, Wilton, Titanium",,recommended
-205,attachment,attachment_product,Brand name and/ product for attachment materials used,"VetBond, Peel Ply,  tesa® 4651","Brand and product name of suture, stainless steel wire, monofilament, bolt, tape, adhesive, epoxy, suction cup, air gun, speargun, pole, applicator and tip.",recommended
+205,attachment,attachment_product,Brand name and/ product for attachment materials used,"VetBond Peel Ply  tesa® 4651","Brand and product name of suture stainless steel wire monofilament bolt tape adhesive epoxy suction cup air gun speargun pole applicator and tip.",recommended
 206,attachment,mount_type,Type of mount,"Fin, tail, carapacial ridge",,recommended
 207,attachment,release_method,Method to get a tag detached from the animal/ anchor,"corrosive burn wire, oxidative/ explosive, galavanizing metal, acoustic release",,recommended
 208,attachment,tether_assembly,Materials and methods in constructing a tether,heat-shrink or silicon tubing,Use brand name and/ product when possible.,recommended
