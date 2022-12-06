@@ -73,7 +73,7 @@ attribute_id,category,attribute_name,description,example,comments,necessity
 321,deployment,notes_capture,Notes for the capture event,,,optional
 400,animal,condition_capture,Description of condition/ injury. Or specify scoring system and a score.,good,"Can be generic: good/ bad/ gut hooked/ eye hooked/ bleeding. Scoring system fof fish/ shark: reflex action mortality predictor (RAMP)/ Kerstetter's lab ACES. Measurement: Bioelectrical Impedance Analysis (BIA) gives phase angle and composition index. Fat: Distell Fatmeter",required
 401,animal,length_capture,Length of the animal,300,,required
-402,animal,length_method_capture,Method used to obtain the measurement,"measured caliper, measured tape,  estimated, calculated",Calculated means it's calculated from length-weight relationships or other conversions.,required
+402,animal,length_method_capture,Method used to obtain the measurement,"measured caliper/ measured tape/ estimated/ calculated",Calculated means it's calculated from length-weight relationships or other conversions.,required
 403,animal,length_type_capture,Type of length measurement,"Curved fork length/ Straight fork length/ total length. For turtle the standard measurements are Curved Carapace Length (CCL)/ Straight Carapace Length (SCL)/ Curved Carapace Width (CCW) and Straight Carapace Width (SCW)/ and researchers occasionally measure girth as well. ",May need to compile a list of types and abbreviations,required
 404,animal,length_unit_capture,Unit of length measurement,centimeter,May need to compile a list of types and abbreviations,required
 405,animal,platform,Common name(s) or FAO code for species name,,Refer to www.itis.gov or FAO species list,required
